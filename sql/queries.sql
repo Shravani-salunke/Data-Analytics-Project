@@ -58,3 +58,61 @@ channel,
 1.0 / COUNT(*) OVER(PARTITION BY user_id)
 AS linear_weight
 FROM user_journey;
+
+-- calculate the core KPIs
+-- Total spend
+SELECT
+SUM(
+CAST(
+REPLACE(
+REPLACE(Acquisition_Cost,'$',''),
+',',''
+) AS DECIMAL(15,2)
+)
+) AS Total_Spend
+FROM marketing_campaign_dataset;
+
+-- Cost Per Click(CPC) 
+SELECT ROUND(
+SUM(
+CAST(
+REPLACE(REPLACE(Acquisition_Cost,'$',''),',','')
+AS DECIMAL(15,2)
+)
+)
+/ SUM(Clicks),
+2
+) AS CPC
+FROM marketing_campaign_dataset;
+
+-- CAC
+SELECT ROUND(
+SUM(
+CAST(
+REPLACE(REPLACE(Acquisition_Cost,'$',''),',','')
+AS DECIMAL(15,2)
+)
+)
+/COUNT(*),
+2
+) AS CAC
+FROM marketing_campaign_dataset;
+
+-- ROAS(Return On Ad Spend) 
+SELECT ROUND(
+SUM(
+CAST(
+REPLACE(REPLACE(Acquisition_Cost,'$',''),',','')
+AS DECIMAL(15,2)
+) * ROI
+)
+/
+SUM(
+CAST(
+REPLACE(REPLACE(Acquisition_Cost,'$',''),',','')
+AS DECIMAL(15,2)
+)
+),
+2
+) AS ROAS
+FROM marketing_campaign_dataset;
