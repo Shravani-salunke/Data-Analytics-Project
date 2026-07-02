@@ -9,10 +9,10 @@ Documented the Star Schema and Data Modeling process.
 Created a Business Insights Report based on the calculated KPIs.
 
 KPI	Result:
-Total Spend	₹259,282,794.00
-CPC	₹22.91
-CAC	₹12,523.92
-ROAS	5.01
+ Total Spend - ₹500910364.00 
+ Cost Per Click (CPC) - ₹22.83 
+ Customer Acquisition Cost (CAC) - ₹12503.72 
+ Return on Ad Spend (ROAS) - 5.01 
 
 Outcome
 

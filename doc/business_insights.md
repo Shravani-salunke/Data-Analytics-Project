@@ -5,24 +5,24 @@ This report summarizes the key business insights obtained from the marketing cam
 ## KPI Summary
 
 The KPI and Values
- Total Spend - ₹259,282,794.00 
- Cost Per Click (CPC) - ₹22.91 
- Customer Acquisition Cost (CAC) - ₹12,523.92 
+ Total Spend - ₹500910364.00 
+ Cost Per Click (CPC) - ₹22.83 
+ Customer Acquisition Cost (CAC) - ₹12503.72 
  Return on Ad Spend (ROAS) - 5.01 
 
 ## Key Insights
 
 ### 1. Total Marketing Spend
 
-The company spent approximately **₹259.28 million** on marketing campaigns during the analysis period.
+The company spent approximately **₹500910364.00** on marketing campaigns during the analysis period.
 
 ### 2. Cost Per Click (CPC)
 
-The average CPC is **₹22.91**, indicating the average amount spent for each customer click.
+The average CPC is **₹22.83**, indicating the average amount spent for each customer click.
 
 ### 3. Customer Acquisition Cost (CAC)
 
-The average cost to acquire one customer is **₹12,523.92**.
+The average cost to acquire one customer is **₹12503.72**.
 
 ### 4. Return on Ad Spend (ROAS)
 
